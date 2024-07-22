@@ -1,6 +1,6 @@
-# Xdazzl's small site :link: https://dazzlingcomputer.github.io 
-### :page_facing_up: [2](https://dazzlingcomputer.github.io/tag.html) 
-### :speech_balloon: 0 
+# Xdazzl's small site :link: https://xdazzl.us.kg 
+### :page_facing_up: [2](https://xdazzl.us.kg/tag.html) 
+### :speech_balloon: 1 
 ### :hibiscus: 338 
-### :alarm_clock: 2024-07-17 14:37:18 
+### :alarm_clock: 2024-07-22 15:18:23 
 ### Powered by :heart: [Gmeek](https://github.com/Meekdai/Gmeek)

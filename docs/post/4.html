@@ -40,7 +40,7 @@
 
 **个人首页地址**:https://space.bilibili.com/1180842599。">
 <meta property="og:type" content="article">
-<meta property="og:url" content="https://dazzlingcomputer.github.io/post/ben-zhan-xiang-guan-zhan-dian-he-lian-jie.html">
+<meta property="og:url" content="https://xdazzl.us.kg/post/4.html">
 <meta property="og:image" content="https://avatars.githubusercontent.com/u/118881048?s=400&u=e2dea831b7a867f912fb680db39d829c10e1d14d&v=4">
 <title>本站相关站点和链接</title>
 
@@ -76,7 +76,7 @@ body{box-sizing: border-box;min-width: 200px;max-width: 900px;margin: 20px auto;
     <div id="header">
 <h1 class="postTitle">本站相关站点和链接</h1>
 <div class="title-right">
-    <a href="https://dazzlingcomputer.github.io" id="buttonHome" class="btn btn-invisible circle" title="首页">
+    <a href="https://xdazzl.us.kg" id="buttonHome" class="btn btn-invisible circle" title="首页">
         <svg class="octicon" width="16" height="16">
             <path id="pathHome" fill-rule="evenodd"></path>
         </svg>
@@ -109,13 +109,13 @@ body{box-sizing: border-box;min-width: 200px;max-width: 900px;margin: 20px auto;
 站点③:<a href="https://bingai.xdazzl.cloudns.ch" rel="nofollow">https://bingai.xdazzl.cloudns.ch</a><br>
 站点④:<a href="https://bingai.xdazzl.us.kg" rel="nofollow">https://bingai.xdazzl.us.kg</a></p>
 <p><strong>个人首页地址</strong>:<a href="https://space.bilibili.com/1180842599" rel="nofollow">https://space.bilibili.com/1180842599</a></p></div>
-<div style="font-size:small;margin-top:8px;float:right;"></div>
+<div style="font-size:small;margin-top:8px;float:right;">转载请注明出处</div>
 
 <button class="btn btn-block" type="button" onclick="openComments()" id="cmButton">评论</button>
 <div class="comments" id="comments"></div>
 
 </div>
-    <div id="footer"><div id="footer1">Copyright © <span id="copyrightYear"></span> <a href="https://dazzlingcomputer.github.io">Xdazzl's small site</a></div>
+    <div id="footer"><div id="footer1">Copyright © <span id="copyrightYear"></span> <a href="https://xdazzl.us.kg">Xdazzl's small site</a></div>
 <div id="footer2">
     <span id="runday"></span><span>Powered by <a href="https://meekdai.com/Gmeek.html" target="_blank">Gmeek</a></span>
 </div>
@@ -124,8 +124,8 @@ body{box-sizing: border-box;min-width: 200px;max-width: 900px;margin: 20px auto;
 var now=new Date();
 document.getElementById("copyrightYear").innerHTML=now.getFullYear();
 
-if(""!=""){
-    var startSite=new Date("");
+if("07/16/2024"!=""){
+    var startSite=new Date("07/16/2024");
     var diff=now.getTime()-startSite.getTime();
     var diffDay=Math.floor(diff/(1000*60*60*24));
     document.getElementById("runday").innerHTML="网站运行"+diffDay+"天"+" • ";
@@ -167,7 +167,11 @@ console.log("\n %c Gmeek last https://github.com/Meekdai/Gmeek \n","padding:5px 
 <script>
 document.getElementById("pathHome").setAttribute("d",IconList["home"]);
 document.getElementById("pathIssue").setAttribute("d",IconList["github"]);
-
+cmButton=document.getElementById("cmButton");
+    span=document.createElement("span");
+    span.setAttribute("class","Counter");
+    span.innerHTML="1";
+    cmButton.appendChild(span);
 
 
 function openComments(){
